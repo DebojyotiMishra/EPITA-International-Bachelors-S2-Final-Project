@@ -1,0 +1,80 @@
+/* The Modal (background) */
+#editGradeModal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1000; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgba(0, 0, 0, 0.5); /* Dark background with opacity */
+}
+
+/* Modal Content/Box */
+#editGradeModal .modal-content {
+  background-color: #fefefe;
+  margin: 5% auto; /* Center the modal */
+  padding: 20px;
+  border: 1px solid #888;
+  width: 50%; /* Width of the modal */
+  max-width: 600px; /* Maximum width */
+  border-radius: 10px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+  position: relative; /* For positioning close button */
+}
+
+/* The Close Button */
+#editGradeModal .modal-content .close {
+  position: absolute;
+  top: 10px;
+  right: 17px;
+  font-size: 24px;
+  cursor: pointer;
+  color: #888;
+  background: none;
+  border: none;
+  text-align: right;
+}
+
+/* Close Button Hover Effect */
+#editGradeModal .modal-content .close:hover {
+  color: #000;
+}
+
+/* Style all input fields */
+#editGradeModal .modal-content input[type="hidden"],
+#editGradeModal .modal-content input[type="number"] {
+  width: 98%; /* Ensure input fields take full width */
+  padding: 12px;
+  margin: 10px 0; /* Margin for spacing */
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box; /* Ensure padding and border are included in width */
+}
+
+/* Style the submit and cancel buttons */
+#editGradeModal .modal-content button {
+  background-color: #007aff;
+  color: white;
+  padding: 14px;
+  border: none;
+  cursor: pointer;
+  width: calc(50% - 10px); /* Adjust width for side-by-side buttons */
+  border-radius: 4px;
+  font-size: 16px;
+  margin: 10px 5px 0 0; /* Margin for spacing */
+  display: inline-block; /* To align buttons horizontally */
+  text-align: center;
+}
+
+/* Style the cancel button */
+#editGradeModal .modal-content #cancelBtn {
+  background-color: #ccc;
+  color: #000;
+}
+
+/* Button hover effects */
+#editGradeModal .modal-content button:hover {
+  opacity: 0.8;
+}
