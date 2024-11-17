@@ -35,3 +35,4 @@ To set up the project, follow these steps:
 - **Backend**: PHP
 - **Database**: MySQL
 - **Styling**: Custom CSS and system fonts
+
